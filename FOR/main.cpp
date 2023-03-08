@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 using namespace std;
 //#define FAKTORIAL
@@ -12,7 +12,7 @@ void main()
 {
 #ifdef FAKTORIAL
 	int i, fact = 1, n;
-	cout << "Ââåäèòå ÷èñëî\t"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾\t"; cin >> n;
 	for (i = 1; i <= n; i++)
 	{
 		fact = fact * i;
@@ -21,7 +21,7 @@ void main()
 #endif // FAKTORIAL
 
 #ifdef PIFAGOR
-	cout << "Òàáëèöà ïèôàãîðà" << endl;
+	cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð¿Ð¸Ñ„Ð°Ð³Ð¾Ñ€Ð°" << endl;
 	for (int i = 1; i < 10.5; i++)
 	{
 		for (int j = 1; j <= 10.5; j++)
@@ -45,7 +45,7 @@ void main()
 
 	for (int i = 0; i < 10; i++)
 	{
-		cout << "Òàáëèöà óìíîæåíèÿ íà " << i << "\t" << endl;
+		cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð½Ð° " << i << "\t" << endl;
 		for (int j = 0; j < 10; j++)
 		{
 			cout << "\t\t\t";
